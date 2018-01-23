@@ -9,7 +9,7 @@ import java.net.URL;
 import java.util.Scanner;
 
 public class AnotherWayRestful {
-    public void main(String[] args) throws MalformedURLException {
+    public static void main(String[] args) throws MalformedURLException {
         try {
 
             URL url = new URL("http://dataservice.accuweather.com/currentconditions/v1/49959?apikey=fBBXgQ2ajpfORIsveVrj5pDi8tPqbb9i");
